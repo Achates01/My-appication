@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+#container{
+    width:2100px;
+    margin:10 auto;
+    border: 1px solid black;
+    font-family: sans-serify;
+    
+}
+#header{
+    background: rgb(124, 7, 7);
+    width:2000px;
+    padding: 20px 10px;
+    color:rgb(170, 168, 168);
+
+}
+#header h1{
+    text-align:center;
+    font-size:50px;
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    float:left;
+    width:240px;
+    padding: 15px 0;
+    text-align:center;
+    
+}
+#nav ul li:hover{
+    background:#308f0b;
+    color:rgb(3, 3, 3);
+}
+#nav a{
+    color:rgb(10, 9, 9);
+}
+#left{
+    width:800px;
+    height:600px;
+    float: left;
+}
+#post{
+    margin: 20px;
+}
+.tittle{
+    background: black;
+    padding:15px 10px;
+    color:white;
+    font-size:25px;
+    font-width:bold;
+
+}
+
+.description{
+    background:#308f0b;
+    padding: 20px;
+}
+#right{
+    width:880px;
+    height: 800px;
+    float: left;
+    padding:20px;
+
+}
+#right h2{
+    text-align: center;
+
+}
+#latest_post_group{
+    margin:30px 0;
+}
+.latest_post{
+    background:black;
+    padding:20px 0;
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+.news_letter_head{
+    text-align:center;
+    font-size: 205px;
+}
+input[type="text"]{
+    width:350px;
+    height:30px;
+}
+input[type="submit"]{
+    width:385px;
+    margin:10px 0;
+    background: rgb(158, 6, 6);
+    color:white;
+    padding: 10px 0;
+    border: none;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    background: #1d6b05;
+    cursor: pointer;
+
+}
+#footer{
+    background:rgb(22, 204, 16);
+    color:rgb(8, 17, 104);
+    text-align center;
+    padding: 20px;
+}
