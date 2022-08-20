@@ -1,5 +1,6 @@
 body{
-    background:#03f4fc;
+    background:#5475d1;
+    
     font-family:'Trebuchet MS';
 
 }
@@ -8,16 +9,16 @@ body{
     height:500px;
     margin:0 auto;
     margin-top:100px;
-    border:3px solid blue;  // need to remove this after we are done
+    border:3px solid rgb(63, 63, 197);  // need to remove this after we are done
 }
 .main .left{
     width:50%;
     height:100%;
     float:left;
     text-align:center;
-    background:#dffc03;
+    background:#5475d1;
     position:relative;
-    border:1px solid blue;  // need to remove this after we are done
+    border:1px solid rgb(6, 14, 6);  // need to remove this after we are done
 }
 .main .left h1{
     margin-top:100px;
@@ -38,7 +39,7 @@ body{
 
 }
 .left form input[type="submit"]{
-    background:#373aff;
+    background:#020203;
     color:#fff;
     cursor:pointer;
     font-weight:bold;
@@ -83,7 +84,7 @@ body{
     padding:15px;
     width:15px;
     font-size:18px;
-    background:#fff;
+    background:rgb(236, 236, 231);
     margin-right:10px;
     border-radius:50%;
 }
@@ -112,3 +113,4 @@ body{
     background:hsl(56, 98%, 24%);
     color:#fff;
     cursor:pointer; 
+}    
